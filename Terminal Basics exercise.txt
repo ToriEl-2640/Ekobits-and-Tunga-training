@@ -1,3 +1,6 @@
+
+                                                                       PART I
+
 { terminalandunix }  » /home/USER1/victoriaeloho/ekobits/terminalandunix                                                      ~/victoriaeloho/ekobits/terminalandunix
 { terminalandunix }  » terminalbasics                                                                                         ~/victoriaeloho/ekobits/terminalandunix
 { terminalbasics }  » mkdir first                                                                              ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
@@ -35,3 +38,54 @@ first  second
 { terminalbasics }  » rm -rf second                                                                            ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
 { terminalbasics }  » ls                                                                                       ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
 first
+
+
+
+                                                                PART II
+ 1. The man command creates a dialogue to give details of a desired command. 
+To scroll and get out after typing man rm, use arrow keys to navigate and press q to exit.
+
+2. On man ls, the -l flag is used to display a long listing format with content of files and folders. 
+The -a flag lists all files including files that are hidden.
+  
+3. { terminalbasics }  » pwd
+/home/USER1/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » curl https://www.google.com > google.html
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 39843    0 39843    0     0  22877      0 --:--:--  0:00:01 --:--:-- 35290
+
+4. { terminalbasics }  » less :less google.html
+:less: No such file or directory
+google.html  (press RETURN)
+
+5.{ terminalbasics }  » man                                                                                    ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+What manual page do you want?
+{ terminalbasics }  » less                                                                                   ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+Missing filename ("less --help" for help)
+{ terminalbasics }  » man less                                                                                 ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » ^K /pattern hplogo google.html                                                           ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+zsh: substitution failed
+{ terminalbasics }  » ^Khplogo google.html /pattern                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+zsh: substitution failed
+{ terminalbasics }  » ^K hplogo google.html/pattern                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+zsh: substitution failed
+
+6. To jump between words in the terminal,Use Option and the left arrow to move back and use Option with the right arrow to move forward down the line.
+
+7. To get to the end of a line in terminal,use [Ctrl] + [E] or End
+
+8. To move your cursor to the beginning, use [Ctrl] + [A] or Home.
+
+9.  To delete a word withoutpressing backspace multiple times in terminal,in front of the cursor, use [Ctrl][W]. To delete the word after the cursor, use [Alt][D].
+
+10. A Terminal is like a parent to a Shell because a terminal is a program which runs a shell giving us a command line interface to interact with the computer while a shell is a program that processes commands and returns output.
+
+11. An Absolute path specify a path starting from the root directory.
+
+12. A Relative path specify a path based on current location.
+
+13. A Flag is an entry that modifies the behaviour of a command.
+e.g. -a, -l, -r.
+
+14.The -r and -f flags with the rm command removes an entire folder with files.
