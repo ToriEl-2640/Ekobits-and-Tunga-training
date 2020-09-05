@@ -1,0 +1,37 @@
+{ terminalandunix }  » /home/USER1/victoriaeloho/ekobits/terminalandunix                                                      ~/victoriaeloho/ekobits/terminalandunix
+{ terminalandunix }  » terminalbasics                                                                                         ~/victoriaeloho/ekobits/terminalandunix
+{ terminalbasics }  » mkdir first                                                                              ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » cd first                                                                                 ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ first }  » touch person.txt                                                                            ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+{ first }  » ls                                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+person.txt
+{ first }  » mv person.txt another.txt                                                                   ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+{ first }  » ls                                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+another.txt
+{ first }  » cp another.txt copy.txt                                                                     ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+{ first }  » ls                                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+another.txt  copy.txt
+{ first }  » rm copy.txt                                                                                 ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+{ first }  » ls                                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+another.txt
+{ first }  » cp -r first second                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first
+cp: cannot stat ‘first’: No such file or directory
+{ first }  » cd -                                                                                      ~/victoriaeloho/ekobits/terminalandunix/terminalbasics/first 1
+~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » cp -r first second                                                                       ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » ls                                                                                       ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+first  second
+{ terminalbasics }  » rmm rf second                                                                            ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+zsh: command not found: rmm
+{ terminalbasics }  » rm r second                                                                          ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 127
+rm: cannot remove ‘r’: No such file or directory
+rm: cannot remove ‘second’: Is a directory
+{ terminalbasics }  » rm rf second                                                                           ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+rm: cannot remove ‘rf’: No such file or directory
+rm: cannot remove ‘second’: Is a directory
+{ terminalbasics }  » rm -rf seond                                                                           ~/victoriaeloho/ekobits/terminalandunix/terminalbasics 1
+{ terminalbasics }  » ls                                                                                       ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+first  second
+{ terminalbasics }  » rm -rf second                                                                            ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+{ terminalbasics }  » ls                                                                                       ~/victoriaeloho/ekobits/terminalandunix/terminalbasics
+first
