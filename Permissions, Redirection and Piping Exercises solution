@@ -81,3 +81,107 @@ drwxrwx---+ 1 USER1 None  0 Sep  8 02:16 secret_files
 { victoriaeloho }  » ln -s classified classified_link                             ~/victoriaeloho
 { victoriaeloho }  » open classified_link                                         ~/victoriaeloho
 Unable to start 'C:\Users\USER1\.babun\cygwin\home\USER1\victoriaeloho\classified': The specified file was not found.
+
+                                                                   PART II
+
+{ victoriaeloho }  » touch vegetables.txt                                         ~/victoriaeloho
+{ victoriaeloho }  »                                                              ~/victoriaeloho
+{ victoriaeloho }  » echo Lettuce >> vegetables.txt                               ~/victoriaeloho
+{ victoriaeloho }  » echo Amaranth >> vegetables.txt                              ~/victoriaeloho
+{ victoriaeloho }  » echo Beet >> vegetables.txt                                  ~/victoriaeloho
+{ victoriaeloho }  » echo Celery >> vegetables.txt                                ~/victoriaeloho
+{ victoriaeloho }  » echo Kale >> vegetables.txt                                  ~/victoriaeloho
+{ victoriaeloho }  » echo Dill >> vegetables.txt                                  ~/victoriaeloho
+{ victoriaeloho }  » echo Cabbage >> vegetables.txt                               ~/victoriaeloho
+{ victoriaeloho }  » echo Broccoli >> vegetables.txt                              ~/victoriaeloho
+{ victoriaeloho }  » echo Lettuce >> vegetables.txt                               ~/victoriaeloho
+{ victoriaeloho }  » echo Amaranth >> vegetables.txt                              ~/victoriaeloho
+{ victoriaeloho }  » echo Beet >> vegetables.txt                                  ~/victoriaeloho
+{ victoriaeloho }  » echo Spinach >> vegetables.txt                               ~/victoriaeloho
+{ victoriaeloho }  » echo Chard >> vegetables.txt                                 ~/victoriaeloho
+{ victoriaeloho }  » echo Broccoli >> vegetables.txt                              ~/victoriaeloho
+{ victoriaeloho }  » echo Cabbage >> vegetables.txt                               ~/victoriaeloho
+{ victoriaeloho }  » echo Dill >> vegetables.txt                                  ~/victoriaeloho
+{ victoriaeloho }  »                                                              ~/victoriaeloho
+{ victoriaeloho }  » cat vegetables.txt                                           ~/victoriaeloho
+Lettuce
+Amaranth
+Beet
+Celery
+Kale
+Dill
+Cabbage
+Broccoli
+Lettuce
+Amaranth
+Beet
+Spinach
+Chard
+Broccoli
+Cabbage
+Dill
+
+1. 
+{ victoriaeloho }  » sort vegetables.txt                                          ~/victoriaeloho
+Amaranth
+Amaranth
+Beet
+Beet
+Broccoli
+Broccoli
+Cabbage
+Cabbage
+Celery
+Chard
+Dill
+Dill
+Kale
+Lettuce
+Lettuce
+Spinach
+
+2.
+{ victoriaeloho }  » sort vegetables.txt                                          ~/victoriaeloho
+{ victoriaeloho }  » wc vegetables.txt                                          ~/victoriaeloho 1
+ 16  16 114 vegetables.txt
+{ victoriaeloho }  »        
+
+3.
+{ victoriaeloho }  » ln vegetables.txt vegetables_sorted.txt                      ~/victoriaeloho
+{ victoriaeloho }  » sort vegetables.txt < vegetables_sorted.txt | uniq           ~/victoriaeloho
+Amaranth
+Beet
+Broccoli
+Cabbage
+Celery
+Chard
+Dill
+Kale
+Lettuce
+Spinach
+
+4.
+{ victoriaeloho }  » ln vegetables_sorted.txt last_three.txt                    ~/victoriaeloho 1
+{ victoriaeloho }  » cat vegetables_sorted.txt last_three.txt | sort | tail -n 3  ~/victoriaeloho
+Lettuce
+Spinach
+Spinach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
