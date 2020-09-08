@@ -1,0 +1,83 @@
+                                                                      PART I
+1. 
+{ victoriaeloho }  » /home                                                        ~/victoriaeloho
+{ /home }  » cd ~/victoriaeloho                                                             /home
+{ victoriaeloho }  » touch restricted.txt                                         ~/victoriaeloho
+
+2.
+{ victoriaeloho }  » chmod 600 restricted.txt                                     ~/victoriaeloho
+{ victoriaeloho }  » ls -lah                                                      ~/victoriaeloho
+total 20K
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 01:54 .
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 01:55 ..
+drwxrwxr-x+ 1 USER1 None  0 Sep  4 13:54 ekobits
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:15 first.txt
+-rw-rwxr--+ 1 USER1 None 22 Sep  7 12:44 first_link
+lrwxrwxrwx  1 USER1 None 15 Sep  7 12:50 first_sym_link -> learn_again.txt
+-rw-rwxr--+ 1 USER1 None 27 Sep  7 14:48 hello.txt
+-rw-rwxr--+ 1 USER1 None 16 Sep  7 14:53 names.txt
+-rw-rwxr--+ 1 USER1 None 39 Sep  7 18:51 petnames.txt
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 18:50 petnames.txt_sorted.txt
+-rw-rwxr--+ 1 USER1 None 26 Sep  7 18:53 petnames_sorted.txt
+-rw-------+ 1 USER1 None  0 Sep  8 01:54 restricted.txt
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:17 second.txt
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 14:57 sorted.txt
+
+3.
+{ victoriaeloho }  » chmod ugo+rwx restricted.txt                                 ~/victoriaeloho
+{ victoriaeloho }  » ls -lah                                                      ~/victoriaeloho
+total 20K
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 01:54 .
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 01:57 ..
+drwxrwxr-x+ 1 USER1 None  0 Sep  4 13:54 ekobits
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:15 first.txt
+-rw-rwxr--+ 1 USER1 None 22 Sep  7 12:44 first_link
+lrwxrwxrwx  1 USER1 None 15 Sep  7 12:50 first_sym_link -> learn_again.txt
+-rw-rwxr--+ 1 USER1 None 27 Sep  7 14:48 hello.txt
+-rw-rwxr--+ 1 USER1 None 16 Sep  7 14:53 names.txt
+-rw-rwxr--+ 1 USER1 None 39 Sep  7 18:51 petnames.txt
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 18:50 petnames.txt_sorted.txt
+-rw-rwxr--+ 1 USER1 None 26 Sep  7 18:53 petnames_sorted.txt
+-rwxrwxrwx+ 1 USER1 None  0 Sep  8 01:54 restricted.txt
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:17 second.txt
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 14:57 sorted.txt
+
+4.
+{ victoriaeloho }  » mkdir secret_files                                           ~/victoriaeloho
+{ victoriaeloho }  » secret_files                                             ~/victoriaeloho 127
+{ secret_files }  » touch first_secret.txt                           ~/victoriaeloho/secret_files
+{ secret_files }  » mkdir classified                                 ~/victoriaeloho/secret_files
+{ secret_files }  » classified                                       ~/victoriaeloho/secret_files
+{ classified }  » touch super_secret.txt                  ~/victoriaeloho/secret_files/classified
+
+5.
+{ secret_files }  » cd ~/victoriaeloho                               ~/victoriaeloho/secret_files
+{ victoriaeloho }  » chmod 770 secret_files                                       ~/victoriaeloho
+{ victoriaeloho }  » ls -lah                                                    ~/victoriaeloho 1
+total 20K
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 02:00 .
+drwxrwxr-x+ 1 USER1 None  0 Sep  8 02:21 ..
+drwxrwxr-x+ 1 USER1 None  0 Sep  4 13:54 ekobits
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:15 first.txt
+-rw-rwxr--+ 1 USER1 None 22 Sep  7 12:44 first_link
+lrwxrwxrwx  1 USER1 None 15 Sep  7 12:50 first_sym_link -> learn_again.txt
+-rw-rwxr--+ 1 USER1 None 27 Sep  7 14:48 hello.txt
+-rw-rwxr--+ 1 USER1 None 16 Sep  7 14:53 names.txt
+-rw-rwxr--+ 1 USER1 None 39 Sep  7 18:51 petnames.txt
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 18:50 petnames.txt_sorted.txt
+-rw-rwxr--+ 1 USER1 None 26 Sep  7 18:53 petnames_sorted.txt
+-rwxrwxrwx+ 1 USER1 None  0 Sep  8 01:54 restricted.txt
+-rw-rwxr--+ 1 USER1 None 19 Sep  7 15:17 second.txt
+drwxrwx---+ 1 USER1 None  0 Sep  8 02:16 secret_files
+-rw-rwxr--+ 1 USER1 None  0 Sep  7 14:57 sorted.txt
+
+6.
+{ victoriaeloho }  » ln restricted.txt hard_link                                  ~/victoriaeloho
+{ victoriaeloho }  » open hard_link                                               ~/victoriaeloho
+{ victoriaeloho }  »                                                              ~/victoriaeloho
+{ victoriaeloho }  »                                                              ~/victoriaeloho
+
+7.
+{ victoriaeloho }  » ln -s classified classified_link                             ~/victoriaeloho
+{ victoriaeloho }  » open classified_link                                         ~/victoriaeloho
+Unable to start 'C:\Users\USER1\.babun\cygwin\home\USER1\victoriaeloho\classified': The specified file was not found.
