@@ -167,6 +167,10 @@ Lettuce
 Spinach
 Spinach
 
+5.
+{ victoriaeloho }  » cat vegetables.txt | grep "Broccoli" | wc                  ~/victoriaeloho 1
+      2       2      18
+
 
 
 
