@@ -1,0 +1,56 @@
+PART I
+1.
+{ FIRSTNAME }  » mkdir FIRST_NAME                                        /home/FIRSTNAME 127
+{ FIRSTNAME }  » FIRST_NAME                                                  /home/FIRSTNAME
+{ FIRST_NAME }  » export VICTORIA_NAME=$FIRST_NAME/victoria       /home/FIRSTNAME/FIRST_NAME
+
+2.
+{ ~ }  » echo $FIRST_NAME                                                                  ~
+/victoria
+
+3.
+USER1/.babun
+{ ~ }  » export PATH=$PATH:victoria                                                        ~
+{ ~ }  » echo $PATH                                                                        ~
+/home/USER1/bin:/usr/local/bin:/home/USER1/.local/bin:/home/USER1/bin:/usr/local/bin:/home/USER1/.local/bin:/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Users/USER1/.babun:victoria
+
+4.
+$PATH is the environment variable that is used to find programs to execute.
+
+5.
+An environment variable helps to keep track of the path to a particular directory.
+
+6.
+An environment variable is set using the PATH command after configuring your shell.
+
+7. 
+A Process is a program on the computer that is being run. All the memory for one process cannot be accssed by another process.
+
+8.
+By using the "ps" command or "ps aux", you list all processes running on the machine.
+
+9. 
+A PID is a number that identifies the process.
+
+10.
+To terminate a process, enter "kill" and the PID.
+
+11.
+The difference between "kill" and "KILL -9" is that kill simply terminates a process but in the case of unresponsive processes, the KILL -9 command is introduced to terminate it.
+
+12.
+The -i flag allows for case insensitive search in the grep command.
+
+13.
+The -B flag allows for a certain number of lines before the match in the grep command.
+
+14.
+The -C flag allows for a certain number of lines around the match.
+
+15.
+The -A flag allows for a certain number of lines after the match.
+
+16.
+The -w flag allows for full word search.
+
+17.The -n flag shows the line number of a match.
