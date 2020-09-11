@@ -1,4 +1,4 @@
-PART I
+                                                    PART I
 1.
 { FIRSTNAME }  » mkdir FIRST_NAME                                        /home/FIRSTNAME 127
 { FIRSTNAME }  » FIRST_NAME                                                  /home/FIRSTNAME
@@ -54,3 +54,18 @@ The -A flag allows for a certain number of lines after the match.
 The -w flag allows for full word search.
 
 17.The -n flag shows the line number of a match.
+                                                  PART II
+1.
+  { /Desktop }  » find . -name "*learn*"                                              
+2.
+  { /Desktop }  » find . -name "p*"  
+3. 
+  { /Desktop }  » find . -name "*.txt"                                                           
+4.
+  { /Desktop }  » find . Desktop/views "*data*"                                         
+5.
+  grep -wc "[Elie].*" instructors.txt
+6. 
+  grep -w "[P].*" instructors.txt    
+7. 
+  grep -n "[z].*" instructors.txt       
