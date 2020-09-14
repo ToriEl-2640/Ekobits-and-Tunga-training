@@ -74,7 +74,7 @@ Date:   Mon Sep 14 14:54:34 2020 +0100
     adding third.txt
 
 15.
-
+{ learn_git_again } master » git config --global --replace-all core.pager=cat
 
 16.
 { learn_git_again } master » git config --global
