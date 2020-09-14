@@ -1,6 +1,8 @@
 # Ekobits-and-Tunga-training
-This repository contains the exercises of the program (Ekobits X Tunga Training).
+This repository contains the solution to the exercises of the Ekobits X Tunga Techjobs Programme.
 
 ESSENTIAL DEVELOPER TOOLS:
 * Terminal and Unix
 * Git and Github
+
+HTML AND CSS:
