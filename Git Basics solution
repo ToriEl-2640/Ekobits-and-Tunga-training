@@ -1,0 +1,81 @@
+Git basics exercises
+
+1.
+{ ekobits }  » mkdir learn_git_again                   /home/user1/victoriaeloho/ekobits
+
+2.
+{ ekobits }  » cd learn_git_again                      /home/user1/victoriaeloho/ekobits
+
+3.
+{ learn_git_again }  » touch third.txt /home/user1/victoriaeloho/ekobits/learn_git_again
+
+4.
+{ learn_git_again }  » git init        /home/user1/victoriaeloho/ekobits/learn_git_again
+Initialized empty Git repository in /home/user1/victoriaeloho/ekobits/learn_git_again/.git/
+
+5.
+{ learn_git_again } HEAD » git add "third.txt"
+
+6.
+{ learn_git_again } HEAD » git commit -m "adding third.txt"
+[master (root-commit) 70af534] adding third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.txt
+7.
+{ learn_git_again } master » git log
+commit 70af5345fe089ec7ca5f52458ec645de041008d5
+Author: Toriel-2640 <ejumeguvictoria@gmail.com>
+Date:   Mon Sep 14 14:54:34 2020 +0100
+
+    adding third.txt
+
+8.
+{ learn_git_again } master » touch fourth.txt
+
+9.
+{ learn_git_again } master » git add "fourth.txt"
+
+10.
+{ learn_git_again } master » git commit -m "adding fourth.txt"
+[master f9ba0f7] adding fourth.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.txt
+
+11.
+{ learn_git_again } master » rm third.txt
+
+12.
+{ learn_git_again } master » git add "rm third.txt"
+
+13.
+{ learn_git_again } master » git commit -m "removing third.txt"
+[master 18990b8] removing third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 third.txt
+
+14.
+{ learn_git_again } master » git log   /home/user1/victoriaeloho/ekobits/learn_git_again
+commit 18990b8fe066eaf7d33c6fdbe52767c6c1ba89dd
+Author: Toriel-2640 <ejumeguvictoria@gmail.com>
+Date:   Mon Sep 14 15:00:36 2020 +0100
+
+    removing third.txt
+
+commit f9ba0f7d96204ff372c478048cf0d25af37a515e
+Author: Toriel-2640 <ejumeguvictoria@gmail.com>
+Date:   Mon Sep 14 14:58:52 2020 +0100
+
+    adding fourth.txt
+
+commit 70af5345fe089ec7ca5f52458ec645de041008d5
+Author: Toriel-2640 <ejumeguvictoria@gmail.com>
+Date:   Mon Sep 14 14:54:34 2020 +0100
+
+    adding third.txt
+
+15.
+
+
+16.
+{ learn_git_again } master » git config --global
+
