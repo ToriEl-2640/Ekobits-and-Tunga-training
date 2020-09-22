@@ -1,0 +1,7 @@
+PART I
+
+1.git reset removes the commit from the commit history while git revert undoes a commit without erasing the history.
+git revert is used if collaborating with other developers.
+2. git merge is a non destructive operation while git rebase loses the context provided by a merge commit.
+3. git stash pop move the latest stashed change back into the working directory and remove it from the list while git stash apply move the latest stashed change back to the working directory and keeps it on the list.
+4. you can alter commits as they are moved to the new branch.
