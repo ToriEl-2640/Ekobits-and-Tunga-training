@@ -6,3 +6,7 @@ ESSENTIAL DEVELOPER TOOLS:
 * Git and Github
 
 HTML AND CSS:
+* HTML + CSS Basics
+* Intermediate CSS
+
+JAVASCRIPT FUNDAMENTALS:
