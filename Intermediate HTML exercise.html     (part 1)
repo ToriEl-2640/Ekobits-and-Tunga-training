@@ -1,0 +1,127 @@
+<!Doctype html>
+<html>
+<header>Inside of header-lets add a navbar with some essential links
+    <nav>
+        <span>
+            <a href="homepage.html">Home</a> &nbsp;<a href="Aboutpage.html">About</a>&nbsp;<a href="Contactpage">Contact</a>
+            </span>
+        </nav>
+        <hr>
+    </header>
+    <h2><b> Here is the main section of our page - it consists of a new article</b></h2>
+
+    <body>
+        <h2
+        ><div><b> Article 1 - 1995 was a pretty crazy year for programming languages!</b>
+        </div>
+    </h2>
+        
+        <br>
+        <div>
+             Don't believe me? Just check this table out:
+        </div>
+        <br>
+        <table>
+            <thead>
+                <tr> 
+                    <th> Language</th>
+                    <th> Designed By</th>
+                    <th> First Appeared</th>
+                </tr>
+                
+            </thead>
+          <tbody>
+               <tr>
+                   <td> C++ </td>
+                   <td> Bjarne Stroustrup</td>
+                   <td> 1983 </td>
+              </tr>
+              <tr> 
+                <td> Python </td>
+                <td> Guido van Rossum </td>
+                <td> 1991</td>
+                </tr>
+                <tr>
+                <td> Ruby </td>
+                <td> Yukihiro Matsumoto("Matz") </td>
+                <td> 1995</td>
+                </tr>
+                 <tr>
+                      <td> JavaScript</td>
+                      <td> Brendan Eich </td>
+                      <td> 1995</td>
+                 <tr>
+                      <td> Java </td>
+                      <td> James Gosling</td>
+                      <td> 1995</td>
+                </tr>
+                 <tr>
+                    <td> PHP</td>
+                    <td> Rasmus Lerdorf</td>
+                    <td> 1995</td>
+                </tr>
+          </tbody>
+        </table>
+        <h2> <b> Article 2 - Coming soon...</b></h2>
+<div>
+    <h2><b>Contact us!</b></h2> </div>
+<div>
+    <h2><b>General Information</b></h2> 
+</div>
+<form action ="#">
+    <div> 
+     <label for= "first name">First Name </label>
+     <input type= "text" id="First Name">
+    </div>
+    <div> 
+     <label for= "last name">Last Name </label>
+     <input type= "text" id="Last Name">
+    </div>
+    <div> 
+     <label for= "email">Email </label>
+     <input type= "text" id="Email">
+    </div> 
+    <div> 
+     <label for= "date">Date Of Birth </label>
+     <input type= "date" name="mm/dd/yyyy" id="Date Of Birth">
+    </div>
+ <h2> <b> Essential Questions</b> </h2>  
+ <div>  What kind of work do you need?
+    <br>
+     <label for = "programming"> Programming: </label>
+     <input type="checkbox" id="Programming">
+    <br>
+     <label for = "design"> Design: </label>
+     <input type="checkbox" id="Design">
+    <br>
+     <label for = "singing"> Singing: </label>
+     <input type="checkbox" id="Singing">
+    <br>
+     <label for = "Comedy"> Comedy: </label>
+     <input type="checkbox" id="Comedy">
+</div>
+<br>
+     <div>
+        How interested are you in our design skills?
+        <br>
+     <label for = "very low"> Very Low </label>
+    <input type="radio" id="Very Low">
+   <br>
+    <label for = "low"> Low </label>
+    <input type="radio" id="Low">
+   <br>
+    <label for = "Medium"> Medium</label>
+    <input type="radio" id="Medium">
+   <br>
+    <label for = "High"> High</label>
+    <input type="radio" id="High">
+   <br>
+    <label for = "very high"> Very High</label>
+    <input type="radio" id="Very High">
+</div>
+<input type="submit" value="Submit Me"  >
+    <footer> Here is our footer-let's make sure we copyright &#169 this!</footer>
+<br>
+        </form>
+    </body>
+    </html>
