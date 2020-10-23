@@ -1,0 +1,5 @@
+$ choco install nodejs.install –y
+$ choco install git –y
+$ npm install -g npm
+$ npm install -g -production windows-build-tools
+$ choco install VisualStudioCode -y
