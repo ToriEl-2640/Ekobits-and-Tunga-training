@@ -1,2 +1,1 @@
-# Ekobits-and-Tunga-training
-This repository contains the exercises of the program (Ekobits X Tunga Training).
+This provides the links to the solution of the 11 milestones of the 2020 Techjobs curriculum.
