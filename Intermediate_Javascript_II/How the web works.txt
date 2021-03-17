@@ -1,0 +1,65 @@
+1. HTTP stands for Hyper Text Transfer Protocol is a well-defined client-server protocol which allows the client to get data from the server or set data on the server. It is the protocol in use for every web site you visit online.
+
+2. URL stands for Uniform Resource Locator. It is an address given to a unique resource on the internet/web.
+
+3. TCP stands for Transmission Control Protocol is a connection-oriented communications protocol that facilitates the exchange of messages between computing devices in a network. 
+
+4. IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network. 
+
+5. DNS stands for Domain Name System is a server that takes a domain name as input and returns an IP address as output. This is necessary for the web because computers can only make connections to ip addresses. It is the phonebook of the Internet,humans access information online through domain names,
+
+6. Indempotent  Refers to an operation that can be repeated many times on a set of data and the state of the set of data will not change. This concept is applicable to the HTTP spec since operations like GET,HEAD,PUT,DELETE request are idempotent but a POST and PATCH request are not. It is an operation that will produce the same results if executed once or multiple times.
+
+7. Query String is a part of a uniform resource locator (URL) that assigns values to specified parameters. 
+
+8. Path or Route  is the path to the resource on the Web server. A path may relate to a file that the web server has in its hard drive or an abstract resource that the web server is able to create, read update or delete. These are also called routes.
+
+9. #Four HTTP verbs and their use cases:
+GET- The GET method is used to retrieve information from the given server using a given URI. Requests using GET should only retrieve data and should have no other effect on the data.
+HEAD- Same as GET, but transfers the status line and header section only.
+POST- A POST request is used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
+PUT- Replaces all current representations of the target resource with the uploaded content.
+
+10. Client is a piece of computer hardware or software that accesses a service made available by a server as part of the client–server model of computer networks. The client makes a request.
+
+11. Server a server is a piece of computer hardware or software that provides functionality for other programs or devices, called "clients". The server fulfils your request. It is a web host.
+
+12. HTTP Request is a command the client sends to the server when a connection is established.
+
+13. HTTP Response is the feedback a server returns to a client's request/command.
+
+14. HTTP headers are used to pass additional information between the clients and the server through the request and response header. All the headers are case-insensitive, headers fields are separated by colon, key-value pairs in clear-text string format. General headers apply to both requests and responses, but with no relation to the data transmitted in the body.
+Client Request-header have applicability only for request messages.Server Response-header have applicability only for response messages.Entity-header define meta information about the entity-body or, if no body is present, about the resource identified by the request.
+Example of Request header:
+GET / HTTP/1.1
+Host: www.infschool.com
+
+Example of Response header:
+HTTP/1.1 200 OK
+Date: Wed, 26 Oct 2016 14:38:55 GMT
+Content-Type: text/html; charset=utf-8
+
+15. REST stands for Representational state transfer is a software architectural style which uses a subset of HTTP. It is commonly used to create interactive applications that use Web services. The purpose of REST is to provide a framework for creating fast, scalable and reliable APIs.
+
+16. JSON stands for JavaScript Object Notation. It is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page.
+
+17. When you type in "Hello World" in google.com and press enter, it will reach the correct DNS server, grab the correct IP address, and come back to your browser with results to "Hello World" definitions and other resources.
+
+18. When we say the web is "stateless", it means there is no record of previous interactions and each interaction request has to be handled based entirely on information that comes with it. 
+
+19. Curl is a reflective object-oriented programming language for interactive web applications whose goal is to provide a smoother transition between formatting and programming.
+
+20. #Make a GET request to the icanhazdadjoke API with curl to find all jokes involving the word "pirate." (your answer should be the curl command required).
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+
+
+
+
