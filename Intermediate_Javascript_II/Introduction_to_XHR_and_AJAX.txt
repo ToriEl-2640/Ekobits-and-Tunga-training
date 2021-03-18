@@ -1,0 +1,17 @@
+
+#Where else have you seen 'asynchronous' code before? Think back to a certain section in Part I of the Intermediate JavaScript course.
+JavaScript Functions.
+
+#What is XHR?
+XHR stands for XMLHttpRequest, which is an API that allows for transferring data between client and server. This API is ONLY available to scripting languages in the browser (JavaScript), it is not a technology that can be used by server side languages like Ruby, Python, Java etc. 
+
+#What is XML? Why do we prefer to use JSON?
+XML this stands for Extensible Markup language. In some ways XML looks similar to HTML (both use tags enclosed with brackets, for instance), but XML is primarily used to store text data. While HTML has a small number of pre-defined tags, in XML you can create your own tags. 
+JSON is preferred because it is light-weight and has more speed than XML as XML is used for other operations beyond just data transfer while JSON is designed for only data transfer.
+
+#What is AJAX?
+AJAX - this stands for Asynchronous JavaScript and XML. It is a set of technologies that allows for building single page applications (applications that do not require full page refreshes to change data on the page). The XHR object (in JavaScript) allows
++ Asynchronous
++ JavaScript
++ And - we hope you have this one :)
++ XML
