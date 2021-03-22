@@ -1,0 +1,8 @@
+// What is Encapsulation?
+Encapsulation is a grouping of data and processes which cannot be altered outside the group.
+
+// What is Abstraction?
+Abstraction is a way of restricting details on how a design is implemented leaving users to only how it functions.
+
+// What is Inheritance?
+Inheritance is when the derived/child class copies the functionality of the base/parent class.
