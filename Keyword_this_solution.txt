@@ -1,0 +1,84 @@
+
+1. # What is the value of the keyword 'this' in the following example:
+var data = this;
+console.log(data); //undefined.
+
+2. # What does this function output? Why?
+function logThis(){
+    return this;
+}
+
+logThis(); //Windows as a global object because it is passed outside the object.
+
+3. # What does this function output? Why?
+var instructor = {
+    firstName: 'Tim',
+    sayHi: function(){
+        console.log("Hello! " + this.firstName);
+    }
+}
+
+instructor.sayHi() // 
+
+4. # What does this function output? Why?
+var instructor = {
+    firstName: 'Tim',
+    info: {
+        catOwner: true,
+        boatOwner: true
+    },
+    displayInfo: function(){
+        console.log("Cat owner? " + this.catOwner);
+    }
+}
+
+instructor.displayInfo() //Cat owner Undefined because the string  "cat owner" is not declared.
+
+
+4. # What does this function output? Why?
+var instructor = {
+    firstName: 'Tim',
+    sayHi: function(){
+        console.log("Hello! " + this.firstName);
+    }
+}
+
+instructor.sayHi() //Hello! Tim because the value of the object is assigned to its key.
+
+5. # What does this function output? Why?
+var instructor = {
+    firstName: 'Tim',
+    info: {
+        catOwner: true,
+        boatOwner: true,
+        displayLocation: function(){
+            return this.data.location;
+        },
+        data: {
+            location: "Oakland"
+        }
+    },
+}
+
+instructor.info.displayLocation() //"Oakland" because the value called was defined.
+
+6. # What does this function output? Why?
+var instructor = {
+    firstName: 'Tim',
+    info: {
+        catOwner: true,
+        boatOwner: true,
+        displayLocation: function(){
+            return this.location;
+        },
+        data: {
+            location: "Oakland",
+            logLocation: this.displayLocation
+        }
+    },
+}
+
+instructor.info.data.logLocation() //Uncaught error because instructor.info is not a function.
+
+
+
